@@ -1,4 +1,4 @@
-// @ts-check Maher 55 Maher
+// @ts-check Maher 33
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
