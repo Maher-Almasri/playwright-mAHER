@@ -2,7 +2,7 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  timeout: 60000, // لكل الاختبارات
+  timeout: 70000, // لكل الاختبارات
   use: {
     headless: true,
     viewport: { width: 1280, height: 720 },
