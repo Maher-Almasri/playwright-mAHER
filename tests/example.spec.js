@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// @ts-check Maher 33
-=======
 // @ts-check Maher 1984
->>>>>>> 95df51d (Maher 1984)
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
