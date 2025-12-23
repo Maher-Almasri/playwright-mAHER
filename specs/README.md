@@ -1,20 +1,21 @@
-# Playwright Project
+# Playwright QA Automation
 
-## Setup
+## 📌 Overview
+This project is used for automated testing using Playwright.
+It supports parallel execution, multi-device QA workflow, and CI/CD integration.
 
-1. Clone the repo:
+---
+
+## 🧰 Tech Stack
+- Playwright
+- Node.js
+- GitHub Actions (CI/CD)
+
+---
+
+## 🚀 Setup (First Time)
+```bash
 git clone https://github.com/Maher-Almasri/playwright-mAHER.git
-
-2. Go to project folder:
 cd playwright-mAHER
-
-3. Install dependencies:
 npm install
-
-4. Install Playwright browsers:
 npx playwright install
-
-## Run tests
-npx playwright test
-or
-npx playwright test --ui
