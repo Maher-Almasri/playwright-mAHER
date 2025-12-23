@@ -1,11 +1,12 @@
-import { test, expect } from '@playwright/test';
+// playwright.config.ts
+import { defineConfig } from '@playwright/test';
 
-test('User can login successfully', async ({ page }) => {
-  await page.goto('https://example.com/login');
-
-  await page.fill('#username', 'testuser');
-  await page.fill('#password', 'password123');
-  await page.click('#loginBtn');
-
-  await expect(page).toHaveURL(/dashboard/);
+export default defineConfig({
+  timeout: 60000, // لكل الاختبارات
+  use: {
+    headless: true,
+    viewport: { width: 1280, height: 720 },
+    actionTimeout: 10000,
+    navigationTimeout: 30000,
+  },
 });
