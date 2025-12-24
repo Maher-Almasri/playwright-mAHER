@@ -2,7 +2,7 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  timeout: 90000, // لكل الاختبارات
+  timeout: 90000,   //Add By Maher @Mobisofttt
   use: {
     headless: true,
     viewport: { width: 1280, height: 720 },
