@@ -1,4 +1,4 @@
-// playwright.config.ts
+// login.spec.ts - Playwright configuration used by login-related tests
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
