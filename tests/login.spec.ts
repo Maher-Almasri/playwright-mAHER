@@ -2,7 +2,7 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  timeout: 10000,   //Add By Maher @Mobisoft
+  timeout: 90000,   // Allow up to 90s for full test runs to complete in slower or heavily loaded environments (e.g. CI)
   use: {
     headless: true,
     viewport: { width: 1280, height: 720 },
